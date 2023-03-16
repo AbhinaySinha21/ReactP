@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.move{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgs{
+    width: 150px;
+    height: 150px;
+}
+.textmove{
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+}
+.domain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main{
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+.main .my-card{
+    background-color: white;
+    height: 380px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px black;
+    margin: 50px 35px;
+    padding-bottom: 30px;
+}
+.main .my-card h3{
+    font-size: 1.2rem;
+}
+.main img{
+    margin: 5% 0 5% 0;
+    width:90%;
+    border-radius: 10px;
+}
+.main p{
+    text-align: justify;
+    line-height: 1.5;
+    padding: 0 25px;
+    margin-bottom: 0.9em;
+}
+.main .read{
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width:90%;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.main .read:hover{
+    background-color: blue;
+    color: white;
+}
